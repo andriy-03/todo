@@ -56,9 +56,6 @@ const ListCards = ({ todos, deleteTask, setUpdateData, markDone }) => {
                   onClick={() => markDone(item.id)}
                 />
               </span>
-              {/* {completed && 
-              <div className='bg-black-500'>
-                Good job! Done!</div>} */}
             </div>
           </div>
         ))
